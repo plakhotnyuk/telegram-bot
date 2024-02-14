@@ -1,12 +1,8 @@
 {
-    "name": "telegram-bot-api",
+    "name": "plakhotnyuk/telegram-bot",
     "description": "PHP Wrapper for Telegram Bot API",
-    "keywords": [
-        "php",
-        "telegram",
-        "bot",
-        "bot api"
-    ],
+    "type": "library",
+    "keywords": ["php", "telegram", "bot", "bot api"],
     "homepage": "https://github.com/plakhotnyuk/telegram-bot",
     "license": "MIT",
     "authors": [
@@ -17,26 +13,18 @@
         }
     ],
     "require": {
-        "php" : ">=5.5.0",
+        "php": ">=5.5.0",
         "ext-curl": "*"
     },
     "require-dev": {
-        "phpunit/phpunit" : "~4.0",
+        "phpunit/phpunit": "~4.0",
         "squizlabs/php_codesniffer": "2.*",
         "codeception/codeception": "*"
     },
     "autoload": {
         "psr-4": {
-            "TelegramBot\\Api\\": "src"
+            "TelegramBot\\Api\\": "src/"
         }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "TelegramBot\\Api\\Test\\": "tests"
-        }
-    },
-    "scripts": {
-        "test": "phpunit"
     },
     "extra": {
         "branch-alias": {
