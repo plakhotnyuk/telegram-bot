@@ -7,9 +7,6 @@
     "license": "MIT",
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "require": {
-        "plakhotnyuk/telegram-bot": "dev-main"
-    },
     "authors": [
         {
             "name": "Dmytro Plakhotniuk",
