@@ -14,23 +14,9 @@
     ],
     "require": {
         "php": ">=5.5.0",
-        "ext-curl": "*"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "~4.0",
-        "squizlabs/php_codesniffer": "2.*",
-        "codeception/codeception": "*"
-    },
-    "autoload": {
-        "psr-4": {
-            "TelegramBot\\Api\\": "src/"
-        }
+        "ext-curl": "*",
+        "plakhotnyuk/telegram-bot": "dev-main"
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "extra": {
-        "branch-alias": {
-            "dev-main": "1.0.x-dev"
-        }
-    }
+    "prefer-stable": true
 }
