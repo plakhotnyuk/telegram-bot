@@ -26,7 +26,6 @@
             "TelegramBot\\Api\\": "src/"
         }
     },
-    "minimum-stability": "stable",
     "prefer-stable": true,
     "extra": {
         "branch-alias": {
