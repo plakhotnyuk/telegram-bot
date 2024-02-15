@@ -14,7 +14,8 @@
     ],
     "require": {
         "php": ">=5.5.0",
-        "ext-curl": "*"
+        "ext-curl": "*",
+        "plakhotnyuk/telegram-bot": "dev-main"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0",
@@ -26,6 +27,12 @@
             "TelegramBot\\Api\\": "src/"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/plakhotnyuk/telegram-bot"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "extra": {
