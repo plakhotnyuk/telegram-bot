@@ -5,8 +5,6 @@
     "keywords": ["php", "telegram", "bot", "bot api"],
     "homepage": "https://github.com/plakhotnyuk/telegram-bot",
     "license": "MIT",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "authors": [
         {
             "name": "Dmytro Plakhotniuk",
@@ -28,6 +26,8 @@
             "TelegramBot\\Api\\": "src/"
         }
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "extra": {
         "branch-alias": {
             "dev-master": "1.0-dev"
